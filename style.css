@@ -4,16 +4,31 @@ html, body {
 }
 
 body {
-    background-color: white;
+    background-color: #A4BFB0;
     font-family: Verdana, sans-serif;
     font-size: 100%;
+    color: white;
 }
 
-h1 {color:#038C4C;
+h1,h2,h3,h4 {color:#011126;
     text-align: center;}
 
 img {
     float: left;
-    border: 1px dotted black;
-    margin: 0px 0px 15px 20px;
+    border: none;
+    margin: 0px 40px 20px 20px;
 }
+ blockquote {text-align: center;}
+
+table,th,td {
+    border-width: 1px;
+    border-color: white;
+    text-align: center;
+}
+
+table{
+    border-width: 1px;
+    border-color: white;
+    text-align: center;
+}
+ p{text-align: center;}
