@@ -21,13 +21,10 @@ body {
 h1{color:#011126;
     text-align: center;
     text-transform: uppercase;}
-
-.quote {
-    background-color: #011126;
-    text-align: center;
-    padding-bottom: 60px;
-    padding-top: 60px;
-    color: white;
+.section {
+    margin: 20px;
+    background-color: #dddddd;
+    padding: 15px;
 }
 
 .main {
@@ -41,27 +38,12 @@ h1{color:#011126;
 h2,h3,h4 {color:#011126;
     text-align: left;}
 
-.hobbies{
-    text-align:left;
-    padding-top: 100px;
-    padding-left:10px;
-}
-
-.count-on-me{
-    text-align:left;
-    padding-top: 40px;
-    padding-left:10px;
-}
-.funny-story{
-    text-align:left;
-    padding-top: 40px;
-    padding-left:10px;
-}
 
 .footer{ text-align: center;
     padding-top: 100px;}
 a:hover {
     color: #011126;
+    text-decoration: none;
 }
 a {color: white;
     text-decoration: none;
@@ -83,6 +65,7 @@ img {
 
 table, td, th {
     border: 2px solid #ddd;
+    border-color: #011126;
     text-align: center;
     margin-left:auto;
     margin-right:auto;
