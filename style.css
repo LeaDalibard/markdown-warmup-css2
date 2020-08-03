@@ -9,4 +9,11 @@ body {
     font-size: 100%;
 }
 
-h1 {color:#4CD685}
+h1 {color:#038C4C;
+    text-align: center;}
+
+img {
+    float: left;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+}
