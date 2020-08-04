@@ -18,6 +18,12 @@ body {
     color: white;
 }
 
+.quote{ text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color:#011126;
+    font-size: 1.50em;}
+
 h1{color:#011126;
     text-align: center;
     text-transform: uppercase;}
@@ -25,6 +31,7 @@ h1{color:#011126;
     margin: 20px;
     background-color: #dddddd;
     padding: 15px;
+    border-radius: 25px;
 }
 
 .main {
