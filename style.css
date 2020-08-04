@@ -64,14 +64,15 @@ a {color: white;
 img {
     float: left;
     clear: top;
-    border: none;
+    border-radius: 160px;
+    border: 5px solid #011126;
     margin: 0px 40px 20px 20px;
     width: 250px;
 }
  blockquote {text-align: center;}
 
 table, td, th {
-    border: 2px solid #ddd;
+    border: 3px solid;
     border-color: #011126;
     text-align: center;
     margin-left:auto;
@@ -79,6 +80,10 @@ table, td, th {
     border-collapse: collapse;
     padding: 10px;
 }
+th {background-color:#011126;
+color:white;}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
 
 table{
     border-width: 1px;
